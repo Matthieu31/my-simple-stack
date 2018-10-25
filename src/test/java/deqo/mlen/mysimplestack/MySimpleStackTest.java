@@ -8,6 +8,8 @@ public class MySimpleStackTest {
 
     @Test
     public void testIsEmpty() {
+        MySimpleStack stack = new MySimpleStack();
+        assertEquals(true,stack.isEmpty());
     }
 
     @Test

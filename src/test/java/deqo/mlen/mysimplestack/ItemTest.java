@@ -14,18 +14,18 @@ public class ItemTest {
     }
 
     @Test
-    public void getValeurAvecNull() {
+    public void testGetValeurAvecNull() {
         assertNull(itemATester.getValeur());
     }
 
     @Test
-    public void constructeurAvecArg() {
+    public void testConstructeurAvecArg() {
         itemATester= new Item(4);
         assertEquals(4,(int)itemATester.getValeur());
     }
 
     @Test
-    public void setValeur() {
+    public void testSetValeur() {
         itemATester.setValeur(1);
         assertEquals(1,(int)itemATester.getValeur());
     }
